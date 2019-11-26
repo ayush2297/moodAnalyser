@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-26T10:14:56" hostname="bridgelabz" time="0.003">
+  <properties/>
+  <testcase name="givenReflection_whenCreatesProperClass_shouldReturnTrue" classname="com.moodanalyser.MoodAnalyserTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

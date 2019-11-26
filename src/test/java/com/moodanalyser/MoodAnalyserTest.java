@@ -70,6 +70,17 @@ public class MoodAnalyserTest {
     }
 
     @Test
+    public void givenReflection_whenCreatesProperClass_shouldReturnTrue() {
+        MoodAnalyser moodAnalyser=null;
+        try {
+            moodAnalyser = MoodAnalyzerFactory.createMoodAnalyzer("this is a happy message");
+        } catch (MoodAnalysisException e) {
+            Assert.assertEquals((new MoodAnalyser("this is a happy message")),moodAnalyser);
+        }
+    }
+
+
+    @Test
     public void givenClassNameWithParams_whenHasNoProperClass_shouldThrowMoodAnalysisException() {
         try {
             MoodAnalyser moodAnalyser = MoodAnalyzerFactory.createMoodAnalyzer("this is a sad message");
