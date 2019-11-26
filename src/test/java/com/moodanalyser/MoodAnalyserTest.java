@@ -51,18 +51,6 @@ public class MoodAnalyserTest {
         }
     }
 
-//    @Test
-//    public void givenMoodAnalyzer_className_shouldReturnMoodAnalyserObject(){
-//        MoodAnalyser compareObject = new MoodAnalyser();
-//        MoodAnalyser moodAnalyser = null;
-//        try {
-//            moodAnalyser = MoodAnalyzerFactory.createMoodAnalyzer();
-//        } catch (MoodAnalysisException e) {
-//            e.printStackTrace();
-//        }
-//        Assert.assertEquals(true, compareObject.equals(moodAnalyser));
-//    }
-
     @Test
     public void givenClassName_whenImproper_shouldThrowMoodAnalysisException() {
         try {
@@ -83,13 +71,5 @@ public class MoodAnalyserTest {
         }
     }
 
-//    @Test
-//    public void givenClassName_whenImproper_shouldThrowMoodAnalysisException() {
-//        try {
-//            MoodAnalyser moodAnalyser = MoodAnalyzerFactory.createMoodAnalyzer();
-//        } catch (MoodAnalysisException e) {
-//            System.out.println("dassdasdasdasdsa\t "+e.type);
-//            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS,e.type);
-//        }
-//    }
+
 }

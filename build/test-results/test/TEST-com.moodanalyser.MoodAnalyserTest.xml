@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-26T09:36:00" hostname="bridgelabz" time="0.002">
+<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-11-26T09:40:19" hostname="bridgelabz" time="28.978">
   <properties/>
-  <testcase name="givenMethodName_whenImproper_shouldThrowMoodAnalysisException" classname="com.moodanalyser.MoodAnalyserTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenMethodName_whenImproper_shouldThrowMoodAnalysisException" classname="com.moodanalyser.MoodAnalyserTest" time="28.978">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[dassdasdasdasdsa	 NO_SUCH_METHOD
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
