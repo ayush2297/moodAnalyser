@@ -20,10 +20,14 @@ public class MoodAnalyserTest {
     }
 
     @Test
-    public void givenMood_whenPassedNull_shouldReturnHAPPY(){
+    public void givenMood_whenPassedNull_shouldThrowNullException(){
         MoodAnalyser moodAnalyser = new MoodAnalyser(null);
-        String mood = moodAnalyser.analyseMood();
-        Assert.assertEquals("HAPPY",mood);
+        try {
+            moodAnalyser.analyseMood();
+        } catch (MoodAnalysisException e) {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NULL_MESSAGE,
+                    e.type);
+        }
     }
 
 }
