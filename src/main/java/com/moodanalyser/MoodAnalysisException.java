@@ -2,7 +2,7 @@ package com.moodanalyser;
 
 public class MoodAnalysisException extends Exception {
     enum ExceptionType {
-            NULL_MESSAGE, EMPTY_MESSAGE, NO_SUCH_CLASS
+            NULL_MESSAGE, EMPTY_MESSAGE, NO_SUCH_CLASS, NO_SUCH_METHOD
     }
     public ExceptionType type;
 
