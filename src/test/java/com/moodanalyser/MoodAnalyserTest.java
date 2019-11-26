@@ -52,24 +52,30 @@ public class MoodAnalyserTest {
     }
 
     @Test
-    public void givenClassName_whenImproper_shouldThrowMoodAnalysisException() {
+    public void givenClassName_whenHasNoProperClass_shouldThrowMoodAnalysisException() {
         try {
             MoodAnalyser moodAnalyser = MoodAnalyzerFactory.createMoodAnalyzer();
         } catch (MoodAnalysisException e) {
-            System.out.println("dassdasdasdasdsa\t "+e.type);
             Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS,e.type);
         }
     }
 
     @Test
-    public void givenMethodName_whenImproper_shouldThrowMoodAnalysisException() {
+    public void givenMethodName_whenHasNoProperConstructor_shouldThrowMoodAnalysisException() {
         try {
             MoodAnalyser moodAnalyser = MoodAnalyzerFactory.createMoodAnalyzer();
         } catch (MoodAnalysisException e) {
-            System.out.println("dassdasdasdasdsa\t "+e.type);
             Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD,e.type);
         }
     }
 
+    @Test
+    public void givenClassNameWithParams_whenHasNoProperClass_shouldThrowMoodAnalysisException() {
+        try {
+            MoodAnalyser moodAnalyser = MoodAnalyzerFactory.createMoodAnalyzer("this is a sad message");
+        } catch (MoodAnalysisException e) {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS,e.type);
+        }
+    }
 
 }
