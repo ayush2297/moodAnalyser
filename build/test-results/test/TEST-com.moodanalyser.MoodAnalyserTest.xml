@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-26T07:30:02" hostname="bridgelabz" time="0.001">
+<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-26T07:56:43" hostname="bridgelabz" time="0.003">
   <properties/>
-  <testcase name="givenMoodAnalyzer_className_shouldReturnMoodAnalyserObject" classname="com.moodanalyser.MoodAnalyserTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenClassName_whenImproper_shouldThrowMoodAnalysisException" classname="com.moodanalyser.MoodAnalyserTest" time="0.003"/>
+  <system-out><![CDATA[dassdasdasdasdsa	 NO_SUCH_CLASS
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
