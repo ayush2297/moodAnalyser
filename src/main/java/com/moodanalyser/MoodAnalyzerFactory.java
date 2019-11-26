@@ -29,8 +29,8 @@ public class MoodAnalyzerFactory {
 
     public static MoodAnalyser createMoodAnalyzer(String message) throws MoodAnalysisException {
         try{
-            Class<?> moodAnalysisClass = Class.forName("com.moodanalyser.MoodAnalyser1");
-            Constructor<?> moodConstructor = moodAnalysisClass.getConstructor(String.class);
+            Class<?> moodAnalysisClass = Class.forName("com.moodanalyser.MoodAnalyser");
+            Constructor<?> moodConstructor = moodAnalysisClass.getConstructor(Integer.class);
             Object moodObject;
             moodObject = moodConstructor.newInstance(message);
             return (MoodAnalyser)moodObject;

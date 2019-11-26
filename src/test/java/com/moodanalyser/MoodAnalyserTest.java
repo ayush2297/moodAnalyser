@@ -78,4 +78,14 @@ public class MoodAnalyserTest {
         }
     }
 
+    @Test
+    public void givenMethodNameWithParams_whenHasNoProperConstructor_shouldThrowMoodAnalysisException() {
+        try {
+            MoodAnalyser moodAnalyser = MoodAnalyzerFactory.createMoodAnalyzer("this is a happy message");
+        } catch (MoodAnalysisException e) {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD,e.type);
+        }
+    }
+
+
 }

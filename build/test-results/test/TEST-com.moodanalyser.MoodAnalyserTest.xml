@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-26T10:03:33" hostname="bridgelabz" time="0.008">
-  <properties/>
-  <testcase name="givenClassNameWithParams_whenHasNoProperClass_shouldThrowMoodAnalysisException" classname="com.moodanalyser.MoodAnalyserTest" time="0.008"/>
-  <system-out><![CDATA[dassdasdasdasdsa	 NO_SUCH_CLASS
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
