@@ -51,4 +51,13 @@ public class MoodAnalyserTest {
         }
     }
 
+    @Test
+    public void givenMoodAnalyzer_whenProper_shouldReturnTrue(){
+
+        MoodAnalyser compareObject = new MoodAnalyser();
+        MoodAnalyser moodAnalyser = (MoodAnalyser)MoodAnalyzerFactory.createMoodAnalyzer();
+        Assert.assertEquals(true, compareObject.equals(moodAnalyser));
+
+    }
+
 }

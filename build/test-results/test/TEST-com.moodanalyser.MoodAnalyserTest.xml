@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-11-26T06:15:03" hostname="bridgelabz" time="86.578">
+<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-26T07:22:46" hostname="bridgelabz" time="0.001">
   <properties/>
-  <testcase name="givenMood_whenPassedEmptyString_shouldThrowEmptyStringException" classname="com.moodanalyser.MoodAnalyserTest" time="86.578">
-    <skipped/>
-  </testcase>
+  <testcase name="givenMoodAnalyzer_whenProper_shouldReturnTrue" classname="com.moodanalyser.MoodAnalyserTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

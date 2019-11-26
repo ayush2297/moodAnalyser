@@ -1,7 +1,7 @@
 package com.moodanalyser;
 
 public class MoodAnalyser {
-    private String message;
+    public String message = null;
 
     public MoodAnalyser() {
     }
@@ -25,5 +25,12 @@ public class MoodAnalyser {
             throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NULL_MESSAGE ,
                     "please enter proper message");
         }
+    }
+
+    public boolean equals(MoodAnalyser obj) {
+        if((this.message) == (obj.message)) {
+            return true;
+        }
+        return false;
     }
 }
