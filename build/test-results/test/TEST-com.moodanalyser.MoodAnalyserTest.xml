@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-11-26T09:40:19" hostname="bridgelabz" time="28.978">
+<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-11-27T12:09:38" hostname="bridgelabz" time="0.006">
   <properties/>
-  <testcase name="givenMethodName_whenImproper_shouldThrowMoodAnalysisException" classname="com.moodanalyser.MoodAnalyserTest" time="28.978">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[dassdasdasdasdsa	 NO_SUCH_METHOD
-]]></system-out>
+  <testcase name="givenMessage_WhenEmpty_ThrowsException_UsingEnum" classname="com.moodanalyser.MoodAnalyserTest" time="0.001"/>
+  <testcase name="givenMessage_WhenHappy_ReturnHappy_usingDefaultConstructor" classname="com.moodanalyser.MoodAnalyserTest" time="0.001"/>
+  <testcase name="givenClassname_WhenImproper_HandlesException_UsingConstructor" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenMessage_WhenNull_ThrowsException_UsingEnum" classname="com.moodanalyser.MoodAnalyserTest" time="0.001"/>
+  <testcase name="givenClassname_WhenConstructorNotFound_HandlesException_UsingConstructor" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenHappyMessage_WithReflectionShouldReturnHappy" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenClassname_WhenImproper_HandlesException" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenMessage_WhenHappy_ReturnHappy" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenClassName_WhenEquals_CreatesObject" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenClassname_WhenConstructorNotFound_HandlesException" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenClassName_WhenEquals_CreatesObject_UsingParameters" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenObject_onChangeMoodDynamically_ShouldReturnHappy" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenMessage_WhenNull_ThrowsNullException" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenMessage_WhenSad_ReturnSad" classname="com.moodanalyser.MoodAnalyserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

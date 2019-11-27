@@ -1,7 +1,7 @@
 package com.moodanalyser;
 
 public class MoodAnalyser {
-    public String message = null;
+    private String message = null;
 
     public MoodAnalyser(){
 
@@ -28,10 +28,10 @@ public class MoodAnalyser {
         }
     }
 
-    public boolean equals(MoodAnalyser obj) {
-        if((this.message) == (obj.message)) {
+    public boolean equals(Object another)
+    {
+        if (another instanceof MoodAnalyser)
             return true;
-        }
         return false;
     }
 }
